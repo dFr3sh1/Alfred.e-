@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC24EB629004016009A09F9 /* Alfred_e_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC24EB529004016009A09F9 /* Alfred_e_App.swift */; };
+		DCC24EB829004016009A09F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC24EB729004016009A09F9 /* ContentView.swift */; };
+		DCC24EBA29004018009A09F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC24EB929004018009A09F9 /* Assets.xcassets */; };
+		DCC24EBE29004018009A09F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC24EBD29004018009A09F9 /* Preview Assets.xcassets */; };
+		DCC24EC829004018009A09F9 /* Alfred_e_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC24EC729004018009A09F9 /* Alfred_e_Tests.swift */; };
+		DCC24ED229004018009A09F9 /* Alfred_e_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC24ED129004018009A09F9 /* Alfred_e_UITests.swift */; };
+		DCC24ED429004018009A09F9 /* Alfred_e_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC24ED329004018009A09F9 /* Alfred_e_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC24EC429004018009A09F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC24EAA29004016009A09F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC24EB129004016009A09F9;
+			remoteInfo = "Alfred.é";
+		};
+		DCC24ECE29004018009A09F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC24EAA29004016009A09F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC24EB129004016009A09F9;
+			remoteInfo = "Alfred.é";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCC24EB229004016009A09F9 /* Alfred.é.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alfred.é.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC24EB529004016009A09F9 /* Alfred_e_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alfred_e_App.swift; sourceTree = "<group>"; };
+		DCC24EB729004016009A09F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCC24EB929004018009A09F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC24EBB29004018009A09F9 /* Alfred_e_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Alfred_e_.entitlements; sourceTree = "<group>"; };
+		DCC24EBD29004018009A09F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCC24EC329004018009A09F9 /* Alfred.éTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alfred.éTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC24EC729004018009A09F9 /* Alfred_e_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alfred_e_Tests.swift; sourceTree = "<group>"; };
+		DCC24ECD29004018009A09F9 /* Alfred.éUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alfred.éUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC24ED129004018009A09F9 /* Alfred_e_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alfred_e_UITests.swift; sourceTree = "<group>"; };
+		DCC24ED329004018009A09F9 /* Alfred_e_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alfred_e_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC24EAF29004016009A09F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC24EC029004018009A09F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC24ECA29004018009A09F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC24EA929004016009A09F9 = {
+			isa = PBXGroup;
+			children = (
+				DCC24EB429004016009A09F9 /* Alfred.é */,
+				DCC24EC629004018009A09F9 /* Alfred.éTests */,
+				DCC24ED029004018009A09F9 /* Alfred.éUITests */,
+				DCC24EB329004016009A09F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC24EB329004016009A09F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC24EB229004016009A09F9 /* Alfred.é.app */,
+				DCC24EC329004018009A09F9 /* Alfred.éTests.xctest */,
+				DCC24ECD29004018009A09F9 /* Alfred.éUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC24EB429004016009A09F9 /* Alfred.é */ = {
+			isa = PBXGroup;
+			children = (
+				DCC24EB529004016009A09F9 /* Alfred_e_App.swift */,
+				DCC24EB729004016009A09F9 /* ContentView.swift */,
+				DCC24EB929004018009A09F9 /* Assets.xcassets */,
+				DCC24EBB29004018009A09F9 /* Alfred_e_.entitlements */,
+				DCC24EBC29004018009A09F9 /* Preview Content */,
+			);
+			path = "Alfred.é";
+			sourceTree = "<group>";
+		};
+		DCC24EBC29004018009A09F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCC24EBD29004018009A09F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCC24EC629004018009A09F9 /* Alfred.éTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC24EC729004018009A09F9 /* Alfred_e_Tests.swift */,
+			);
+			path = "Alfred.éTests";
+			sourceTree = "<group>";
+		};
+		DCC24ED029004018009A09F9 /* Alfred.éUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC24ED129004018009A09F9 /* Alfred_e_UITests.swift */,
+				DCC24ED329004018009A09F9 /* Alfred_e_UITestsLaunchTests.swift */,
+			);
+			path = "Alfred.éUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC24EB129004016009A09F9 /* Alfred.é */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC24ED729004018009A09F9 /* Build configuration list for PBXNativeTarget "Alfred.é" */;
+			buildPhases = (
+				DCC24EAE29004016009A09F9 /* Sources */,
+				DCC24EAF29004016009A09F9 /* Frameworks */,
+				DCC24EB029004016009A09F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alfred.é";
+			productName = "Alfred.é";
+			productReference = DCC24EB229004016009A09F9 /* Alfred.é.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC24EC229004018009A09F9 /* Alfred.éTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC24EDA29004018009A09F9 /* Build configuration list for PBXNativeTarget "Alfred.éTests" */;
+			buildPhases = (
+				DCC24EBF29004018009A09F9 /* Sources */,
+				DCC24EC029004018009A09F9 /* Frameworks */,
+				DCC24EC129004018009A09F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC24EC529004018009A09F9 /* PBXTargetDependency */,
+			);
+			name = "Alfred.éTests";
+			productName = "Alfred.éTests";
+			productReference = DCC24EC329004018009A09F9 /* Alfred.éTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC24ECC29004018009A09F9 /* Alfred.éUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC24EDD29004018009A09F9 /* Build configuration list for PBXNativeTarget "Alfred.éUITests" */;
+			buildPhases = (
+				DCC24EC929004018009A09F9 /* Sources */,
+				DCC24ECA29004018009A09F9 /* Frameworks */,
+				DCC24ECB29004018009A09F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC24ECF29004018009A09F9 /* PBXTargetDependency */,
+			);
+			name = "Alfred.éUITests";
+			productName = "Alfred.éUITests";
+			productReference = DCC24ECD29004018009A09F9 /* Alfred.éUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC24EAA29004016009A09F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DCC24EB129004016009A09F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DCC24EC229004018009A09F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DCC24EB129004016009A09F9;
+					};
+					DCC24ECC29004018009A09F9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = DCC24EB129004016009A09F9;
+					};
+				};
+			};
+			buildConfigurationList = DCC24EAD29004016009A09F9 /* Build configuration list for PBXProject "Alfred.é" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC24EA929004016009A09F9;
+			productRefGroup = DCC24EB329004016009A09F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC24EB129004016009A09F9 /* Alfred.é */,
+				DCC24EC229004018009A09F9 /* Alfred.éTests */,
+				DCC24ECC29004018009A09F9 /* Alfred.éUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC24EB029004016009A09F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC24EBE29004018009A09F9 /* Preview Assets.xcassets in Resources */,
+				DCC24EBA29004018009A09F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC24EC129004018009A09F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC24ECB29004018009A09F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC24EAE29004016009A09F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC24EB829004016009A09F9 /* ContentView.swift in Sources */,
+				DCC24EB629004016009A09F9 /* Alfred_e_App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC24EBF29004018009A09F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC24EC829004018009A09F9 /* Alfred_e_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC24EC929004018009A09F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC24ED429004018009A09F9 /* Alfred_e_UITestsLaunchTests.swift in Sources */,
+				DCC24ED229004018009A09F9 /* Alfred_e_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC24EC529004018009A09F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC24EB129004016009A09F9 /* Alfred.é */;
+			targetProxy = DCC24EC429004018009A09F9 /* PBXContainerItemProxy */;
+		};
+		DCC24ECF29004018009A09F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC24EB129004016009A09F9 /* Alfred.é */;
+			targetProxy = DCC24ECE29004018009A09F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCC24ED529004018009A09F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC24ED629004018009A09F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DCC24ED829004018009A09F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Alfred.é/Alfred_e_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alfred.é/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfr3sh.Alfred-e-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC24ED929004018009A09F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Alfred.é/Alfred_e_.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alfred.é/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfr3sh.Alfred-e-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC24EDB29004018009A09F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfr3sh.Alfred-e-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alfred.é.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Alfred.é";
+			};
+			name = Debug;
+		};
+		DCC24EDC29004018009A09F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfr3sh.Alfred-e-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alfred.é.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Alfred.é";
+			};
+			name = Release;
+		};
+		DCC24EDE29004018009A09F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfr3sh.Alfred-e-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alfred.é";
+			};
+			name = Debug;
+		};
+		DCC24EDF29004018009A09F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dfr3sh.Alfred-e-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alfred.é";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC24EAD29004016009A09F9 /* Build configuration list for PBXProject "Alfred.é" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC24ED529004018009A09F9 /* Debug */,
+				DCC24ED629004018009A09F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC24ED729004018009A09F9 /* Build configuration list for PBXNativeTarget "Alfred.é" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC24ED829004018009A09F9 /* Debug */,
+				DCC24ED929004018009A09F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC24EDA29004018009A09F9 /* Build configuration list for PBXNativeTarget "Alfred.éTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC24EDB29004018009A09F9 /* Debug */,
+				DCC24EDC29004018009A09F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC24EDD29004018009A09F9 /* Build configuration list for PBXNativeTarget "Alfred.éUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC24EDE29004018009A09F9 /* Debug */,
+				DCC24EDF29004018009A09F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC24EAA29004016009A09F9 /* Project object */;
+}
